@@ -1930,7 +1930,6 @@
                 });         
             }); 
         });  
-
         // button-close
 
         jQuery('.button-close').click(function(){

@@ -10562,6 +10562,11 @@ a:hover,
     padding: 5px 0;
     margin-bottom: 5px;
 }
+.de_project-details .d-field{
+    border-bottom: solid 1px rgba(0, 0, 0, .1);
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
 .dark-scheme .de_project-details .d-field{
     border-bottom: solid 1px rgba(255, 255, 255, .1);
 }
@@ -11661,6 +11666,71 @@ body.dark-scheme::-webkit-scrollbar-thumb,.dark-scheme #de_modal::-webkit-scroll
 
 .de_3d-box img{
     width: 40px;
+}
+.de_3d-box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: rgba(34, 34, 34,.0);
+  position: relative;
+}
+.dark-scheme .de_3d-box1{
+}
+.de_3d-box1 .d-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 40px;
+}
+.de_3d-box1 h3{
+ margin-left: 50px;
+ margin-top: 5px;
+}
+.de_3d-box1 i,
+.de_3d-box1 img{
+    position: absolute;
+    font-size: 40px;
+    top: 38px;
+    left: 30px;
+}
+
+.de_3d-box1 img{
+    width: 40px;
+}
+.hover {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    cursor: pointer;
+    color: #54b3d6;
+    transition: color .1s ease-in-out, box-shadow .1s ease-in-out;
+  }
+  
+.hover:hover {
+    box-shadow: inset 500px 0 0 0 #54b3d6;
+    color: white;
+}
+.hover1 {
+    box-shadow: inset 0 0 0 0 #EA9999;
+    cursor: pointer;
+    color: #EA9999;
+    transition: color .1s ease-in-out, box-shadow .1s ease-in-out;
+  }
+  
+.hover1:hover {
+    box-shadow: inset 500px 0 0 0 #EA9999;
+    color: white;
+}
+.hover2 {
+    box-shadow: inset 0 0 0 0 #B6D7A8;
+    cursor: pointer;
+    color: #B6D7A8;
+    transition: color .1s ease-in-out, box-shadow .1s ease-in-out;
+  }
+  
+.hover2:hover {
+    box-shadow: inset 500px 0 0 0 #B6D7A8;
+    color: white;
 }
 
 .g-recaptcha {

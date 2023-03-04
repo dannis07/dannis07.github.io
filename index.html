@@ -3,7 +3,7 @@
 
 <head>
     <title>Jaewook Lee Portfolio</title>
-    <link rel="icon" href="" type="image/gif" sizes="16x16">
+    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="Kyros - Personal Website" name="description" />
@@ -20,6 +20,23 @@
             --primary-color-rgb: 207, 31, 31;
         }
     </style>
+    <style>
+        .something {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 100%; /* 1:1 Aspect Ratio */
+        }
+            .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        }
+      </style>
     <link href="css/coloring.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -48,9 +65,7 @@
                                     <li><a class="active" href="#top">Home<span></span></a></li>
                                     <li><a href="#section-about">About me<span></span></a></li>
                                     <li><a href="#section-services">What I Do<span></span></a></li>
-                                    <li><a href="#section-portfolio">Portfolio<span></span></a></li>
                                     <li><a href="#section-resume">My Resume<span></span></a></li>
-                                    <li><a href="#section-blog">Blog<span></span></a></li>
                                     <li><a href="#section-contact">Contact Me<span></span></a></li>
                                 </ul>
                                 <div class="menu_side_area">
@@ -75,12 +90,7 @@
             
             <!-- float text begin -->
             <div class="float-text">
-                <div class="de_social-icons">
-                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
-                </div>
-                <span>Follow Me</span>
+                <span>dannis10273880@gmail.com</span>
             </div>
             <!-- float text close --> 
 
@@ -98,19 +108,52 @@
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-md-12">
-                                <h6 class="wow fadeInUp" data-wow-delay=".4s"><span class="id-color">I Am Jaewook Lee</span></h6>
                                 <div class="spacer-10"></div>
-                                <div class="h1_big text-white wow fadeInUp" data-wow-delay=".6s">
-                                    <div class="typed-strings">
-                                        <p>Programmer</p>
-                                        <p>Student</p>
+                                <div class="row g-0">
+                                    <div class="col-lg-4 wow fadeIn" data-wow-delay=".2s">
+                                        <div class="de_3d-box1">
+                                            <div class="d-inner">
+                                                <div class="text">
+                                                    <div class="hover">
+                                                        <h1 style="text-align: center" onclick="location.href='/Kyros HTML/community.html'">Community</h1>
+                                                    </div>
+                                                    Actively formed and stimulated various communities to maximize the benefits toward individuals. 
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="typed"></div>
+                                    <div class="col-lg-4 wow fadeIn" data-wow-delay=".4s">
+                                        <div class="de_3d-box">
+                                            <div class="d-inner">
+                                                <div class="text">
+                                                    <div class="hover1" onclick="location.href='/Kyros HTML/research.html'">
+                                                        <h1 style="text-align: center">Research</h1>
+                                                    </div>
+                                                    Conducted academic research to discover new bits of knowledge and investigate deeper into inquiries.
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 wow fadeIn" data-wow-delay=".6s">
+                                        <div class="de_3d-box">
+                                            <div class="d-inner">
+                                                <div class="text">
+                                                    <div class="hover2" onclick="location.href='/Kyros HTML/secure.html'">
+                                                        <h1 style="text-align: center">Security</h1>
+                                                    </div>
+                                                    Developed programs and systems to maximize cybersecurity and make fair world.
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="spacer-20"></div>
                             <ul class="list_location wow fadeInUp" data-wow-delay=".8s">
-                                <li><span>School</span>Cheongshim International Academy</li>
+                                <li><h6><span class="id-color">Jaewook Lee</span></h6>
+                                    Cheongshim International Academy(Graduated)</li>
                             </ul>
                         </div>
                     </div>
@@ -130,7 +173,7 @@
                             <div class="space-border"></div>
                         </div>
                         <div class="col-md-8 offset-md-2 text-center wow fadeInUp">
-                            <p>I am a senior at Cheonshim International School, with a strong focus on computer science. I love to challenge myself through new technologies, algorithms, and computer scientific knowledges.
+                            <p>I am an INVENTOR with a strong focus on computer science. I love to challenge myself through new technologies, algorithms, and computer scientific knowledges.
                             </p>
                         </div>
                         <div class="spacer-single"></div>
@@ -210,8 +253,8 @@
                                     <div class="d-inner">
                                         <i class="icon_genius id-color"></i>
                                         <div class="text">
-                                            <h3>Website Creating</h3>
-                                            Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure.
+                                            <h3>Website Build</h3>
+                                            I build front-end through HTML/CSS/JS and server side through Node.js.
                                         </div>
                                     </div>
                                 </div>
@@ -221,8 +264,8 @@
                                     <div class="d-inner">
                                         <i class="icon_desktop id-color"></i>
                                         <div class="text">
-                                            <h3>AI building</h3>
-                                            Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure.
+                                            <h3>AI Model Design</h3>
+                                            Through python, I give life to numerous models such as pose detection or 3d reconstruction through intricate neural networks.
                                         </div>
                                     </div>
                                 </div>
@@ -232,88 +275,12 @@
                                     <div class="d-inner">
                                         <i class="icon_lock_alt id-color"></i>
                                         <div class="text">
-                                            <h3>Cryptography</h3>
-                                            Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure.
+                                            <h3>Researches</h3>
+                                            I always question myself and try to investigate every aspect, thus drawing out meaningful conclusions in technologies.
+
+
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="section-portfolio" class="no-bottom">
-                <div class="container relative">
-                    <div class="row">
-                        <div class="col-md-12 text-center wow fadeInUp">
-                            <h2>Portfolio</h2>
-                            <div class="space-border"></div>
-                        </div>
-                    </div>
-                    <div id="gallery" class="row sequence">
-                        <div class="col-md-4 item">
-                            <div class="de_modal wow" data-url="project1.html">
-                                <div class="card-image-1 mod-c" data-tilt>
-                                    <div class="d-text">
-                                        <h3>ABCEDE</h3>
-                                        <h5 class="d-tag">website</h5>
-                                    </div>
-                                    <img src="images/gallery/7.png" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 item">
-                            <div class="de_modal wow" data-url="single-project.html">
-                                <div class="card-image-1 mod-c" data-tilt>
-                                    <div class="d-text">
-                                        <h3>Rockfest Event</h3>
-                                        <h5 class="d-tag">website</h5>
-                                    </div>
-                                    <img src="images/gallery/2.jpg" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 item">
-                            <div class="de_modal wow" data-url="single-project.html">
-                                <div class="card-image-1 mod-c" data-tilt>
-                                    <div class="d-text">
-                                        <h3>Justica Lawyer</h3>
-                                        <h5 class="d-tag">website</h5>
-                                    </div>
-                                    <img src="images/gallery/3.jpg" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 item">
-                            <div class="de_modal wow" data-url="single-project.html">
-                                <div class="card-image-1 mod-c" data-tilt>
-                                    <div class="d-text">
-                                        <h3>Bluetec App</h3>
-                                        <h5 class="d-tag">website</h5>
-                                    </div>
-                                    <img src="images/gallery/4.jpg" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 item">
-                            <div class="de_modal wow" data-url="single-project.html">
-                                <div class="card-image-1 mod-c" data-tilt>
-                                    <div class="d-text">
-                                        <h3>Uhost Hosting</h3>
-                                        <h5 class="d-tag">website</h5>
-                                    </div>
-                                    <img src="images/gallery/5.jpg" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 item">
-                            <div class="de_modal wow" data-url="single-project.html">
-                                <div class="card-image-1 mod-c" data-tilt>
-                                    <div class="d-text">
-                                        <h3>Bolo Creative</h3>
-                                        <h5 class="d-tag">website</h5>
-                                    </div>
-                                    <img src="images/gallery/6.jpg" class="img-fluid" alt="">
                                 </div>
                             </div>
                         </div>
@@ -328,160 +295,9 @@
                             <div class="space-border"></div>
                         </div>
                     </div>
-                    <div class="row gh-5">
-                        <div class="col-lg-6 wow fadeInUp">
-                            <div class="p-4">
-                                <h3 class="s_border">Experiences</h3>
-                                <ul class="d_timeline">
-                                    <li class="d_timeline-item">
-                                        <h3 class="d_timeline-title">2014 - now</h3>
-                                        <p class="d_timeline-text"><span class="d_title">Founder &amp; Creative Director</span><span class="d_company">Kyros Studio</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.</p>
-                                    </li>
-                                    <li class="d_timeline-item">
-                                        <h3 class="d_timeline-title">2010 - 2014</h3>
-                                        <p class="d_timeline-text"><span class="d_title">Senior UI / UX Designer</span><span class="d_company">Google Inc</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.</p>
-                                    </li>
-                                    <li class="d_timeline-item">
-                                        <h3 class="d_timeline-title">2008 - 2010</h3>
-                                        <p class="d_timeline-text"><span class="d_title">Graphic Designer</span><span class="d_company">Kyros Studio</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 wow fadeInUp">
-                            <div class="p-4">
-                                <h3 class="s_border">Education</h3>
-                                <ul class="d_timeline">
-                                    <li class="d_timeline-item">
-                                        <h3 class="d_timeline-title">2004 - 2008</h3>
-                                        <p class="d_timeline-text"><span class="d_title">Master in Design</span><span class="d_company">New York University</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.</p>
-                                    </li>
-                                    <li class="d_timeline-item">
-                                        <h3 class="d_timeline-title">2004 - 2008</h3>
-                                        <p class="d_timeline-text"><span class="d_title">Bachelor of Arts</span><span class="d_company">University of London</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.</p>
-                                    </li>
-                                    <li class="d_timeline-item">
-                                        <h3 class="d_timeline-title">2006 - 2004</h3>
-                                        <p class="d_timeline-text"><span class="d_title">Artist of College</span><span class="d_company">University of Sydney</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="section-fun-facts" aria-label="section" class="jarallax">
-                <div class="de-gradient-edge-top"></div>
-                <img src="images/background/3.jpg" class="jarallax-img" alt="">
-                <div class="container">
-                        <div class="row">
-                            <div class="col-md-3 wow fadeIn" data-wow-delay="0">
-                                <div class="de_count text-center">
-                                    <h3 class="timer" data-to="8240" data-speed="2500">0</h3>
-                                    <span>Hours of Works</span>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3 wow fadeIn" data-wow-delay=".25s">
-                                <div class="de_count text-center">
-                                    <h3 class="timer" data-to="315" data-speed="2500">0</h3>
-                                    <span>Projects Done</span>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3 wow fadeIn" data-wow-delay=".5s">
-                                <div class="de_count text-center">
-                                    <h3 class="timer" data-to="250" data-speed="2500">0</h3>
-                                    <span>Satisfied Customers</span>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3 wow fadeIn" data-wow-delay=".75s">
-                                <div class="de_count text-center">
-                                    <h3 class="timer" data-to="32" data-speed="2500">0</h3>
-                                    <span>Awards Winning</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="de-gradient-edge-bottom"></div>
-            </section>
-            <section id="section-blog" class="no-bottom">
-                <div class="container relative">
-                    <div class="row">
-                        <div class="col-md-12 text-center wow fadeInUp">
-                            <h2>Recent Blog</h2>
-                            <div class="space-border"></div>
-                        </div>
-                    </div>
-                    <div id="carousel-blog" class="owl-carousel wow fadeInUp">
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="post-image">
-                                    <div class="de_modal" data-url="single-blog.html"><img alt="" src="images/blog/1.jpg" class="lazy grayscale"></div>
-                                </div>
-                                <div class="post-text">
-                                    <h4 class="de_modal" data-url="single-blog.html">How to Make Better User Interface</h4>
-                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur consequat...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="post-image">
-                                    <div class="de_modal" data-url="single-blog.html"><img alt="" src="images/blog/2.jpg" class="lazy grayscale"></div>
-                                </div>
-                                <div class="post-text">
-                                    <h4 class="de_modal" data-url="single-blog.html">10 Web Design Tips From Experts</h4>
-                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur consequat...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="post-image">
-                                    <div class="de_modal" data-url="single-blog.html"><img alt="" src="images/blog/3.jpg" class="lazy grayscale"></div>
-                                </div>
-                                <div class="post-text">
-                                    <h4 class="de_modal" data-url="single-blog.html">The Importance of Web Design</h4>
-                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur consequat...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="post-image">
-                                    <div class="de_modal" data-url="single-blog.html"><img alt="" src="images/blog/4.jpg" class="lazy grayscale"></div>
-                                </div>
-                                <div class="post-text">
-                                    <h4 class="de_modal" data-url="single-blog.html">10 Web Design Tips From Experts</h4>
-                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur consequat...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="post-image">
-                                    <div class="de_modal" data-url="single-blog.html"><img alt="" src="images/blog/5.jpg" class="lazy grayscale"></div>
-                                </div>
-                                <div class="post-text">
-                                    <h4 class="de_modal" data-url="single-blog.html">The Importance of Web Design</h4>
-                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur consequat...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bloglist item">
-                            <div class="post-content">
-                                <div class="post-image">
-                                    <div class="de_modal" data-url="single-blog.html"><img alt="" src="images/blog/6.jpg" class="lazy grayscale"></div>
-                                </div>
-                                <div class="post-text">
-                                    <h4 class="de_modal" data-url="single-blog.html">Tips for Healthy Teeth<span></span></h4>
-                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur consequat...</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="something">
+                        <iframe class="responsive-iframe" src="images/Jaewook Lee Resume.pdf"></iframe>
+                      </div>
                 </div>
             </section>
             <section id="section-contact" class="jarallax">
@@ -545,7 +361,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="wm-1"></div>
-                                    <h6>School</h6b>
+                                    <h6>School</h6>
                                     <p>Cheongshim International Academy</p>
                                 </div>
                             </div>
